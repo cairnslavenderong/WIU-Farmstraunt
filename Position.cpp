@@ -22,11 +22,11 @@ void Position::setCol(int c) {
     col = c;
 }
 
+bool Position::equals(const Position& other) const {
+    return row == other.row && col == other.col;
+}
 void Position::setPosition(int r, int c) {
     row = r;
     col = c;
 }
 
-bool Position::equals(const Position& other) const {
-    return row == other.row && col == other.col;
-}
