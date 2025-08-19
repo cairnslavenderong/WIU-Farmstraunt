@@ -27,6 +27,7 @@ int main() {
 		testBoard.move();
 		testGame.setTurn();
 	}
+	cout << "HELLO" << endl;
 	Sleep(500);
 	testGame.doOutro();
 	_CrtDumpMemoryLeaks();
