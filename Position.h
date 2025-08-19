@@ -7,14 +7,14 @@ private:
 
 public:
     Position();
-    Position(int row, int col);
+    Position(int r, int c);
 
     int getRow() const;
     int getCol() const;
 
-    void setRow(int row);
-    void setCol(int col);
-    void setPosition(int row, int col);
+    void setRow(int r);
+    void setCol(int c);
+    void setPosition(int r, int c);
 
     bool equals(const Position& other) const;
 };
